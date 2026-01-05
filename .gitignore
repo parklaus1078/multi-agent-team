@@ -1,0 +1,50 @@
+# General Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (Recommended names)
+venv/
+env/
+.venv/
+.env_sec/
+
+# Environment Variables & Secrets (CRITICAL)
+# Contains API Keys for Anthropic, E2B, OpenAI, etc.
+.env*
+.env.local
+.env.*
+
+# Distribution / Builds
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Unit Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Logs and Databases
+*.log
+*.sqlite3
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# LangChain / LangGraph specific
+# (If you decide to use local filesystem checkpointing)
+.langchain/
+checkpoints/
+
+# MyPy type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+.python-version
